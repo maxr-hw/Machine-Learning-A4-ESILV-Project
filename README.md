@@ -13,7 +13,7 @@ This project analyzes a dataset of electronic product sales and explores **custo
 
 ## Dataset
 
-- File: `Electronic_sales_Sep2023-Sep2024.csv`  
+- File: `Electronic_sales_Sep2023-Sep2024.csv`  from `https://www.kaggle.com/datasets/cameronseamons/electronic-sales-sep2023-sep2024`
 - Key columns include:
   - Customer information: `Customer ID`, `Age`, `Gender`, `Loyalty Member`
   - Transaction details: `Product Type`, `SKU`, `Quantity`, `Unit Price`, `Total Price`, `Purchase Date`, `Order Status`, `Payment Method`, `Shipping Type`
