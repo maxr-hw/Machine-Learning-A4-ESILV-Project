@@ -63,6 +63,19 @@ This project analyzes a dataset of electronic product sales and explores **custo
 - Optional: train a **supervised classifier** (`RandomForestClassifier`) to predict cluster labels from transaction features.
 - Output cluster number and characteristics for any new input.
 
+### 6. UMAP Non-linear Dimensionality Reduction
+
+In addition to PCA, UMAP (Uniform Manifold Approximation and Projection) is used to visualize high-dimensional transaction features in 2D.  
+UMAP often provides clearer cluster separation and captures non-linear structure.
+
+UMAP visualizations include:
+- Clusters in 2D
+- Points colored by quantity
+- Discretized quantity levels (`Low`, `Medium`, `High`)
+- Density volumes of clusters
+
+UMAP strengthens interpretability of customer purchase behavior and validates the cluster structure discovered by KMeans.
+
 ---
 
 ## Installation
